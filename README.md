@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular Express Seed
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
@@ -79,3 +80,7 @@ your friends.
 
 ## License
 MIT
+=======
+instagram-angular-nodejs
+========================
+>>>>>>> 4ede68027c785a397c043a43824fc965b911ecd4
