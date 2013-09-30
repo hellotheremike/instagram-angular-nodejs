@@ -1,0 +1,34 @@
+/*.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}
+*/
+body {
+    margin-top: 1em;
+}
+
+.item {
+    margin: 1em;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+
+}
+
+.item img{
+    display: block;
+    opacity: 0.5;
+transition: all .45s ease-in-out;
+   -moz-transition: all .45s ease-in-out;
+   -webkit-transition: all .45s ease-in-out;
+
+}
+
+.item.loaded img{
+    display: block;
+     opacity: 1;
+   transition: all .45s ease-in-out;
+   -moz-transition: all .45s ease-in-out;
+   -webkit-transition: all .45s ease-in-out;
+}

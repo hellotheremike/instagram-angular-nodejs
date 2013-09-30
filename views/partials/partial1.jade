@@ -1,0 +1,8 @@
+//- div(id="container", )
+//- 	div(ng-repeat="n in data", class="item masonry-brick")
+//- 		//- img( class="imgholder", src='{{n.images.thumbnail.url}}', ng-class-odd="'odd'", ng-class-even="'even'")
+//- 		//- img( class="imgholder", src='{{n.images.low_resolution.url}}', ng-class-odd="'even'", ng-class-even="'odd'")
+//- 		img( class="imgholder masonry-brick", src='{{n.images.standard_resolution.url}}', width="300")
+div(id="container",masonry="{ transitionTransition: '0.4s' }")
+    .item(ng-repeat='brick in data')
+        img(ng-src='{{ brick.images.thumbnail.url}}')
